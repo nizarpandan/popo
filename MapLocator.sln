@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapLocator", "MapLocator\MapLocator.csproj", "{C51D1B90-4FF4-4BF6-BC6A-B91502BB7E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapLocator.Data", "MapLocator.Data\MapLocator.Data.csproj", "{B8C75223-AA43-4993-AB20-3DDDBAA7F18F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C51D1B90-4FF4-4BF6-BC6A-B91502BB7E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51D1B90-4FF4-4BF6-BC6A-B91502BB7E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51D1B90-4FF4-4BF6-BC6A-B91502BB7E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51D1B90-4FF4-4BF6-BC6A-B91502BB7E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C75223-AA43-4993-AB20-3DDDBAA7F18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C75223-AA43-4993-AB20-3DDDBAA7F18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C75223-AA43-4993-AB20-3DDDBAA7F18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C75223-AA43-4993-AB20-3DDDBAA7F18F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D938F5-C40C-4882-A2D7-B6CFB2835DE3}
+	EndGlobalSection
+EndGlobal

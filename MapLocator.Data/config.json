@@ -1,0 +1,8 @@
+﻿{
+	"Colors": {
+		"Favorite": "blue"
+	},
+	"ConnectionStrings": {
+		"DutchConnectionString": "server=LT-15-573;Database=MapLocator;Integrated Security=true;MultipleActiveResultSets=true"
+	}
+}
