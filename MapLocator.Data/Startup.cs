@@ -38,8 +38,8 @@ namespace MapLocator.Data
 				cfg.UseSqlServer(_config.GetConnectionString("DutchConnectionString"));
 			});
 			services.AddSingleton(_config);
-			//services.AddDbContext<CampContext>(ServiceLifetime.Scoped)
-			//	.AddIdentity<CampUser, IdentityRole>();
+
+			services.AddScoped<IDutchRepository, DutchRepository>();
 		}
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

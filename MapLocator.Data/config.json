@@ -4,5 +4,11 @@
 	},
 	"ConnectionStrings": {
 		"DutchConnectionString": "server=LT-15-573;Database=MapLocator;Integrated Security=true;MultipleActiveResultSets=true"
+	},
+	"Logging": {
+			"LogLevel": {
+					"Default": "Information",
+					"Microsoft":  "Warning"
+			}
 	}
 }
