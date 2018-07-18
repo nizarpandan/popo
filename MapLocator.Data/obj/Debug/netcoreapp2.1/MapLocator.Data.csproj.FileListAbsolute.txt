@@ -12,3 +12,17 @@ D:\Me\Netcore\MapLocator\Maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data
 D:\Me\Netcore\MapLocator\Maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.RazorTargetAssemblyInfo.cache
 D:\Me\Netcore\MapLocator\Maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.dll
 D:\Me\Netcore\MapLocator\Maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.pdb
+D:\Work\maplocator\popo\maplocator.data\bin\Debug\netcoreapp2.1\MapLocator.Data.deps.json
+D:\Work\maplocator\popo\maplocator.data\bin\Debug\netcoreapp2.1\MapLocator.Data.runtimeconfig.json
+D:\Work\maplocator\popo\maplocator.data\bin\Debug\netcoreapp2.1\MapLocator.Data.runtimeconfig.dev.json
+D:\Work\maplocator\popo\maplocator.data\bin\Debug\netcoreapp2.1\MapLocator.Data.dll
+D:\Work\maplocator\popo\maplocator.data\bin\Debug\netcoreapp2.1\MapLocator.Data.pdb
+D:\Work\maplocator\popo\maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.csprojAssemblyReference.cache
+D:\Work\maplocator\popo\maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.csproj.CoreCompileInputs.cache
+D:\Work\maplocator\popo\maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.RazorAssemblyInfo.cache
+D:\Work\maplocator\popo\maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.RazorAssemblyInfo.cs
+D:\Work\maplocator\popo\maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.AssemblyInfoInputs.cache
+D:\Work\maplocator\popo\maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.AssemblyInfo.cs
+D:\Work\maplocator\popo\maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.RazorTargetAssemblyInfo.cache
+D:\Work\maplocator\popo\maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.dll
+D:\Work\maplocator\popo\maplocator.data\obj\Debug\netcoreapp2.1\MapLocator.Data.pdb

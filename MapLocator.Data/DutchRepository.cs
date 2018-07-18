@@ -1,4 +1,5 @@
 ﻿using MapLocator.Data.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,14 @@ namespace MapLocator.Data
 		{
 			_ctx = ctx;
 			_logger = logger;
+		}
+
+		public IEnumerable<Order> GetAllOrders()
+		{
+			return _ctx.Orders
+				.Include(o => o.Items)
+				.ThenInclude(i => i.Product)
+				.ToList();
 		}
 
 		public IEnumerable<Product> GetAllProducts()

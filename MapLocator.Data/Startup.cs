@@ -20,25 +20,14 @@ namespace MapLocator.Data
 			_config = config;
 		}
 
-		// public Startup(IHostingEnvironment env)
-		// {
-		// 	var builder = new ConfigurationBuilder()
-		// 		.SetBasePath(env.ContentRootPath)
-		// 		.AddJsonFile("appsettings.json");
-
-		// 	_config = builder.Build();
-		// }
-
-		// This method gets called by the runtime. Use this method to add services to the container.
-		// For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 		public void ConfigureServices(IServiceCollection services)
         {
 			services.AddDbContext<DutchContext>(cfg =>
 			{
 				cfg.UseSqlServer(_config.GetConnectionString("DutchConnectionString"));
 			});
-			services.AddSingleton(_config);
 
+			services.AddTransient<DutchSeeder>();
 			services.AddScoped<IDutchRepository, DutchRepository>();
 		}
 
@@ -49,6 +38,16 @@ namespace MapLocator.Data
             {
                 app.UseDeveloperExceptionPage();
             }
+
+			if (env.IsDevelopment())
+			{
+				// Seed the database
+				using (var scope = app.ApplicationServices.CreateScope())
+				{
+					var seeder = scope.ServiceProvider.GetService<DutchSeeder>();
+					seeder.Seed();
+				}
+			}
         }
     }
 }

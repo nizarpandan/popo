@@ -19,6 +19,15 @@ namespace MapLocator
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
-    }
+				.ConfigureAppConfiguration(SetupConfiguration)
+				.UseStartup<Startup>();
+
+		private static void SetupConfiguration(WebHostBuilderContext ctx, IConfigurationBuilder builder)
+		{
+			builder.Sources.Clear();
+
+			builder.AddJsonFile("appsettings.json", false, true)
+					.AddEnvironmentVariables();
+		}
+	}
 }
